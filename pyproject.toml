@@ -1,0 +1,28 @@
+[project]
+name = "rcpsp-marketing"
+version = "0.1.0"
+description = "RCPSP with marketing effects - diploma project"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Antony" }]
+
+[project.optional-dependencies]
+dev = ["pytest", "black", "mypy"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: rcpsp-marketing
+Version: 0.1.0
+Summary: RCPSP with marketing effects - diploma project
+Author: Antony
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Dynamic: license-file
+
+# rcpsp-marketing
+
+Учебный/исследовательский проект по RCPSP (Resource-Constrained Project Scheduling Problem)
+с маркетинговыми эффектами (изменение спроса/дохода от смещения стартов задач‑услуг).
+
+Структура проекта описана в `info.md`. Большинство модулей пока являются заглушками и
+могут постепенно наполняться реализацией.
+
+
